@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item
+         android:id="@+id/home"
+         android:title="Home"
+         android:icon="@drawable/ic_home_black_24dp" />
+    <item
+        android:id="@+id/near_by"
+        android:title="Near By"
+        android:icon="@drawable/ic_location_on_black_24dp"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_black_24dp"/>
+    <item
+        android:id="@+id/tracker"
+        android:title="Tracker"
+        android:icon="@drawable/ic_my_tracker_black_24dp"/>
+    <item
+        android:id="@+id/appointments"
+        android:title="Appointments"
+        android:icon="@drawable/ic_local_hospital_black_24dp"/>
+    <item
+        android:id="@+id/tips"
+        android:title="Tips"
+        android:icon="@drawable/ic_sentiment_satisfied_black_24dp"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/enter_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter Location"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/ambulance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:text="Ambulance"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/blood_bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:text="Blood Bank"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/contact_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:text="Contact Doctor"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/buy_medicines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:text="Buy Medicines" />
+
+</LinearLayout>
